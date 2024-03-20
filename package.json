@@ -1,0 +1,11 @@
+{
+  "name": "todoappchromeextention",
+  "version": "1.0.0",
+  "description": "This is a todo chrome extension",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arkabrata Chandra",
+  "license": "ISC"
+}

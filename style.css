@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 550px;
+    height: 200px;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(150deg,#153677,#4e085f);
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 450px;
+    background: #fff;
+    margin: 40px auto 20px;
+    padding: 20px 25px 20px;
+    border-radius: 20px;
+}
+
+.todo-app>h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.todo-app>h2>img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer;
+    border-radius: 30px;
+}
+
+button:hover{
+    background: #fd442f;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul>li{
+    width: 100%;
+    list-style: none;
+    font-size: 14px;
+    padding: 12px 40px 4px 50px;
+    margin-bottom: 5px;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(84, 78, 78);
+    position: relative;
+}
+
+ul>li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(/images/uncheck-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    top: 7px;
+    left: 8px;
+}
+
+ul>.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul>.checked::before{
+    background-image: url(/images/check-removebg-preview.png);
+    border-radius: 50%;
+    background-size: cover;
+    height: 36px;
+    width: 36px;
+    top: 3px;
+    left: 4px;
+}
+
+ul>li>#span1{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #555;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul>li>#span2{
+    color: #ff5945;
+}
+
+ul>li>#span1:hover{
+    background: #eddef0;
+}
