@@ -1,4 +1,4 @@
-![extension2](https://github.com/itzarkabrata/To-Do-Extension/assets/121841616/9d3874ec-f4bc-426d-b804-6d5e2a1a4d25)# To-Do Chrome-Extension
+# To-Do Chrome-Extension
 Its a convenient chrome extension that can accommodate your tasks in an ordered manner with a Date stamp to keep track those tasks that are yet to be completed
 <h2>Tech-Stack used : </h2>
 <ul>
@@ -16,4 +16,4 @@ Its a convenient chrome extension that can accommodate your tasks in an ordered 
 </ul>
 <hr>
 <h2><u>Sample Image</u></h2><br>
-![extension2](https://github.com/itzarkabrata/To-Do-Extension/assets/121841616/4317c61c-8ffc-4e62-8881-02158cf7b10a)
+![extension2](https://github.com/itzarkabrata/To-Do-Extension/assets/121841616/33b7d004-d73d-49ec-a341-4d1fc134d92f)
